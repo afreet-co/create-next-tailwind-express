@@ -45,7 +45,7 @@ const renameFile = (from, to) => fs.renameSync(from, to);
   removeFile(`${directoryName}/README.md`);
   removeFile(`${directoryName}/package-lock.json`);
   //2. rename .env.example to .env
-  renameFile(`${directoryName}/.env.local.example`, `${directoryName}/.env`);
+  renameFile(`${directoryName}/.env.example`, `${directoryName}/.env`);
 
   //3. get the json from package.json
   const packageJsonRaw = fs.readFileSync(
