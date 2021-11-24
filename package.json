@@ -1,0 +1,22 @@
+{
+  "name": "create-next-tailwind-express",
+  "description": "A Express project starter template containing nextjs frontend with configured TailwindCSS.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "create-next-tailwind-express": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tailwind",
+    "nextjs",
+    "runner",
+    "ghpage"
+  ],
+  "author": {
+    "name": "Afreet Co"
+  },
+  "license": "MIT"
+}
